@@ -192,9 +192,9 @@ const ForgotPassword = () => {
                 className="absolute right-4 top-4 cursor-pointer text-slate-400"
               >
                 {showConfirmPassword ? (
-                  <FaEye />
-                ) : (
                   <FaEyeSlash />
+                ) : (
+                  <FaEye />
                 )}
               </span>
             </div>
